@@ -1,0 +1,6 @@
+print("hello mohammad")
+print("hello", "mohammad")
+print("hello"+" "+"alzoubi")
+print(10, 3)
+print(10+3)
+print(5*'a')

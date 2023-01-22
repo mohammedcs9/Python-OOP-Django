@@ -1,0 +1,13 @@
+x, y = 2,8
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+print(x == y)
+print(x != y)
+print(x > 0 and y > 0)
+print(x > 0 or y > 0)
+print(not(x > 0 and y > 0))
+print(not(x > 0 or y > 0))
+print(x is y)
+print(x is not y)

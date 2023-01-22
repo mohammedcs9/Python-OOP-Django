@@ -1,0 +1,25 @@
+x = 10
+print(abs(-4))
+print(divmod(9, 2))
+print(id(x))
+print(max(7, 3))
+print(min("mohmd","alzoubi"))
+print(round(7.6))
+print(round(7.1))
+
+y = [2, 7, 0, 1, -4, 6, 0.3]
+print("list(y) =", list(y))
+y1 = enumerate(y)
+print("list(y1) =", list(y1))
+y2 = sorted(y)
+print("list(y2) =", list(y2))
+print("all(y) =", all(y))
+print("any(y) =", any(y))
+
+z = reversed(y)
+print("list(z) =", list(z))
+print("len(z) =", len(y))
+print("sum(z) =", sum(y))
+print(y[slice(3)])
+print(y[slice(3,5)])
+print(y[slice(0,8,2)])

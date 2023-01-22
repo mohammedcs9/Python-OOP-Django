@@ -1,0 +1,17 @@
+z = {4, 'a', 5, -3}
+x = {2, 5, -3, 7.1}
+x.add(4)
+y = x.copy()
+print("str1", set(x))
+print("str1", set(y))
+print("str1", set(z))
+print("str4", x.difference(z))
+print("str5", x.intersection(z))
+x.discard(2)
+x.remove(5)
+print("str6", set(x))
+print("str7", x.union(z))
+x.update(y)
+print("str8", set(x))
+x.clear()
+print("str9", set(x))
